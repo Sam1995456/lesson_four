@@ -1,0 +1,513 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Навигационная-панель начало */
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+.heading {
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px 0px 40px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  gap: 55px;
+}
+
+.edu-logo {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 60px;
+  margin-bottom: 105px;
+}
+
+.point {
+  color: rgb(239, 131, 84);
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.title-list {
+  display: flex;
+  gap: 60px;
+  list-style: none;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.list {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.list-a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.list-a:hover {
+  color: rgb(127, 127, 127);
+  text-decoration: none;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.input-form {
+  box-sizing: border-box;
+  border: 1px solid rgba(32, 32, 32, 0.25);
+  border-radius: 50px;
+  background: rgb(250, 250, 250);
+  padding: 14px 200px 14px 60px;
+  color: rgba(32, 32, 32, 0.25);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.new-account {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+.new-account:hover {
+  color: rgb(127, 127, 127);
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-container img {
+  position: absolute;
+  top: auto;
+  right: 1px;
+}
+
+.Log-in-button {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  text-transform: capitalize;
+
+  border: none;
+  border-radius: 5px;
+  background: rgb(239, 131, 84);
+
+  display: inline-block;
+  padding: 10px 30px;
+  margin-right: 80px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Log-in-button:hover {
+  background: rgb(218, 113, 68);
+}
+
+/* Навигационная-панель конец */
+
+.title-main {
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 97px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 100px;
+  margin-bottom: 50px;
+}
+
+.title-color {
+  color: rgb(239, 131, 84);
+}
+
+.title-paragraph {
+  color: rgba(32, 32, 32, 0.75);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 105px;
+  margin-bottom: 80px;
+}
+
+.button-learn-more {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 20px 35px;
+  border-radius: 5px;
+  background: rgb(239, 131, 84);
+  border: none;
+  margin-left: 100px;
+  margin-bottom: 80px;
+}
+
+.button-learn-more:hover {
+  background: rgb(201, 113, 75);
+  cursor: pointer;
+}
+
+.students-text {
+  color: rgba(32, 32, 32, 0.75);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.students-info {
+  display: flex;
+  padding: 100px;
+  gap: 60px;
+  align-items: center;
+}
+
+.avatars img {
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: -20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
+}
+
+.avatars:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.photo-gallery {
+  margin-bottom: 105px;
+}
+
+.trusted-title {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.div-title {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 180px;
+}
+
+.logo-social-medias {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.short-information {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-list {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.info-list h3 {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.info-list p {
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  margin-bottom: 145px;
+}
+
+.info-list img {
+  margin-bottom: 55px;
+}
+
+.image-guy-1 {
+  padding: 80px 120px 0px 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  background: rgb(250, 250, 250);
+}
+
+.image-guy-2 {
+  padding: 80px 150px 0px 80px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  background: rgb(250, 250, 250);
+}
+
+.image-guy-3 {
+  padding: 85px 150px 0px 85px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  background: rgb(250, 250, 250);
+}
+
+/* конец второй секции */
+
+/* начало третьей секции */
+
+.third-title {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+  padding-left: 100px;
+  margin-bottom: 80px;
+}
+
+.image-girl {
+  padding-left: 100px;
+  margin-bottom: 150px;
+}
+
+.main-down-title {
+  padding-right: 200px;
+}
+
+.down-title {
+  color: rgb(210, 82, 26);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 61px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.ashley-title {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.cyber {
+  color: rgb(32, 32, 32);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.third-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* начало футера */
+
+.main-footer {
+  background: rgb(239, 131, 84);
+  height: 400px;
+}
+
+.title-footer {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 35px;
+  margin-bottom: 30px;
+}
+
+.footer-address {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-text {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 10%;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+
+.contact-text:hover {
+  color: rgb(191, 191, 191);
+  cursor: pointer;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 150px;
+}
+
+.foot-down-list {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.foot-title-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.link-list {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.link-list:hover {
+  cursor: pointer;
+  color: rgb(182, 182, 182);
+}
+
+.connect-p {
+  color: rgb(250, 250, 250);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
